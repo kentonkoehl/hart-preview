@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="googlebot" content="noindex, nofollow, noarchive">
+<title>Request a quote | Hart Mechanical (sample redesign)</title>
+<meta name="description" content="Request a quote from Hart Mechanical: scope, industry, drawings and timeline. Sample redesign.">
+<meta name="theme-color" content="#16181b">
+<link rel="icon" href="img/logo-hart-red.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="ribbon" role="note"><div class="wrap"><strong>Sample. Not affiliated with Hart Mechanical.</strong> An unsolicited proposed redesign, not their live website.</div></div>
+<header class="site-head">
+  <div class="wrap head-in">
+    <a class="brand" href="index.html" aria-label="Hart Mechanical and Electrical Contractors, home">
+      <img src="img/logo-hart-red.png" alt="Hart" width="324" height="227">
+      <span>Mechanical &amp; Electrical Contractors, Inc.</span>
+    </a>
+    <nav class="nav" aria-label="Main"><a href="index.html">Home</a><a href="capabilities.html">Capabilities</a><a href="projects.html">Projects</a><a href="about.html">About</a><a href="quote.html" aria-current="page">Request a quote</a></nav>
+    <a class="head-call" href="tel:+12152571666"><span class="long">Call </span>(215) 257-1666</a>
+    <details class="menu">
+      <summary aria-label="Open menu">Menu</summary>
+      <nav class="menu-panel" aria-label="Mobile"><a href="index.html">Home</a><a href="capabilities.html">Capabilities</a><a href="projects.html">Projects</a><a href="about.html">About</a><a href="quote.html" aria-current="page">Request a quote</a></nav>
+    </details>
+  </div>
+</header>
+<main id="main">
+<section class="phead"><div class="wrap">
+  <p class="eyebrow">Request a quote</p>
+  <h1>Tell Hart what you need built.</h1>
+  <p class="lede">Scope, industry, drawings if you have them, and when you need it. The more you send, the faster a real number comes back. Prefer the phone? <a href="tel:+12152571666">(215) 257-1666</a>, Monday to Friday, 8 AM to 5 PM.</p>
+</div></section>
+<div class="wrap rfq">
+  <form class="form" id="rfq" action="thanks.html" method="get" novalidate>
+    <fieldset>
+      <legend>01 / Contact</legend>
+      <div class="row two">
+        <div><label for="name">Name</label><input type="text" id="name" name="name" autocomplete="name" required></div>
+        <div><label for="company">Company</label><input type="text" id="company" name="company" autocomplete="organization" required></div>
+        <div><label for="email">Email</label><input type="email" id="email" name="email" autocomplete="email" required></div>
+        <div><label for="phone">Phone <span class="opt">(optional)</span></label><input type="tel" id="phone" name="phone" autocomplete="tel"></div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>02 / Scope</legend>
+      <span class="lbl" id="proc-l">Process (pick all that apply)</span>
+      <div role="group" aria-labelledby="proc-l"><div class="chips"><label class="chip"><input type="checkbox" name="process" value="Welding"><span>Welding</span></label><label class="chip"><input type="checkbox" name="process" value="Machining"><span>Machining</span></label><label class="chip"><input type="checkbox" name="process" value="Fabrication"><span>Fabrication</span></label><label class="chip"><input type="checkbox" name="process" value="Skid package"><span>Skid package</span></label><label class="chip"><input type="checkbox" name="process" value="Pump package"><span>Pump package</span></label><label class="chip"><input type="checkbox" name="process" value="Industrial piping"><span>Industrial piping</span></label><label class="chip"><input type="checkbox" name="process" value="Sheet metal"><span>Sheet metal</span></label><label class="chip"><input type="checkbox" name="process" value="Water jet cutting"><span>Water jet cutting</span></label><label class="chip"><input type="checkbox" name="process" value="Polishing"><span>Polishing</span></label><label class="chip"><input type="checkbox" name="process" value="Painting"><span>Painting</span></label><label class="chip"><input type="checkbox" name="process" value="Field install"><span>Field install</span></label><label class="chip"><input type="checkbox" name="process" value="Rigging"><span>Rigging</span></label><label class="chip"><input type="checkbox" name="process" value="Turnkey project"><span>Turnkey project</span></label></div></div>
+      <div style="margin-top:1.2rem"><label for="scope">Describe the job</label><textarea id="scope" name="scope" required placeholder="What it is, size, pressure or flow if it is a skid, finish requirements, install location."></textarea></div>
+      <div class="row two" style="margin-top:1rem">
+        <div><label for="industry">Industry</label>
+          <select id="industry" name="industry" required>
+            <option value="">Choose one</option>
+            <option>Food and beverage</option><option>Pharmaceutical</option><option>Chemical</option>
+            <option>Water treatment</option><option>HVAC and refrigeration</option><option>General manufacturing</option>
+            <option>Paper or wood products</option><option>Other</option>
+          </select></div>
+        <div><label for="quantity">Quantity</label><input type="text" id="quantity" name="quantity" inputmode="numeric" placeholder="1, or a production run"></div>
+      </div>
+      <span class="lbl" id="mat-l" style="margin-top:1rem">Material</span>
+      <div role="group" aria-labelledby="mat-l"><div class="chips"><label class="chip"><input type="checkbox" name="material" value="Stainless"><span>Stainless</span></label><label class="chip"><input type="checkbox" name="material" value="Carbon steel"><span>Carbon steel</span></label><label class="chip"><input type="checkbox" name="material" value="Aluminum"><span>Aluminum</span></label><label class="chip"><input type="checkbox" name="material" value="Nickel"><span>Nickel</span></label><label class="chip"><input type="checkbox" name="material" value="Copper"><span>Copper</span></label><label class="chip"><input type="checkbox" name="material" value="PVC"><span>PVC</span></label><label class="chip"><input type="checkbox" name="material" value="Not sure"><span>Not sure</span></label></div></div>
+      <div style="margin-top:1rem"><label for="code">Code or certification required</label>
+        <select id="code" name="code">
+          <option value="">Not sure</option><option>ASME Section IX welds</option><option>AWS D1.1 structural</option><option>Sanitary / polished finish</option><option>Seismic certification</option><option>Class I Div I</option><option>Other (describe above)</option>
+        </select></div>
+    </fieldset>
+    <fieldset>
+      <legend>03 / Drawings <span class="opt">(optional)</span></legend>
+      <div class="drop">
+        <label for="files">Attach drawings, models or photos</label>
+        <input type="file" id="files" name="files" multiple accept=".pdf,.dwg,.dxf,.step,.stp,.igs,.iges,.sldprt,.sldasm,.jpg,.jpeg,.png">
+        <p class="hint">PDF, DWG, DXF, STEP, IGES, SolidWorks or photos. No drawings yet? A sketch or a phone photo is fine.</p>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>04 / Timeline</legend>
+      <span class="lbl" id="tl-l">When do you need it?</span>
+      <div role="group" aria-labelledby="tl-l"><div class="chips"><label class="chip"><input type="radio" name="timeline" value="As soon as possible"><span>As soon as possible</span></label><label class="chip"><input type="radio" name="timeline" value="Within 30 days"><span>Within 30 days</span></label><label class="chip"><input type="radio" name="timeline" value="1 to 3 months"><span>1 to 3 months</span></label><label class="chip"><input type="radio" name="timeline" value="3 months or more"><span>3 months or more</span></label><label class="chip"><input type="radio" name="timeline" value="Budget pricing only"><span>Budget pricing only</span></label></div></div>
+      <div class="row two" style="margin-top:1rem"><div><label for="date">Need-by date <span class="opt">(optional)</span></label><input type="date" id="date" name="date"></div></div>
+    </fieldset>
+    <div>
+      <button class="btn btn-hart" type="submit">Send request <span class="arr">-&gt;</span></button>
+      <p class="hint">This is a sample page. On the live site this request goes straight to the Hart office inbox, drawings attached.</p>
+    </div>
+    <div class="sent" id="sent" tabindex="-1" role="status"><strong>Sample only.</strong> Nothing was sent. On the live site Hart would get this request, with the drawings attached, in their inbox right away.</div>
+  </form>
+  <aside class="sheet" aria-label="Your request summary">
+    <div class="sheet-h"><span>Request for quote</span><span>Sheet 1 of 1</span></div>
+    <dl>
+      <dt>Company</dt><dd data-out="company" class="empty">--</dd>
+      <dt>Process</dt><dd data-out="process" class="empty">--</dd>
+      <dt>Industry</dt><dd data-out="industry" class="empty">--</dd>
+      <dt>Material</dt><dd data-out="material" class="empty">--</dd>
+      <dt>Code</dt><dd data-out="code" class="empty">--</dd>
+      <dt>Qty</dt><dd data-out="qty" class="empty">--</dd>
+      <dt>Scope</dt><dd data-out="scope" class="empty">--</dd>
+      <dt>Drawings</dt><dd data-out="files" class="empty">--</dd>
+      <dt>Timeline</dt><dd data-out="timeline" class="empty">--</dd>
+    </dl>
+    <div class="foot"><img src="img/logo-hart-red.png" alt="" width="324" height="227"><span>Hart Mechanical &amp; Electrical Contractors, Inc.<br>1200 N Ridge Rd, Perkasie, PA 18944</span></div>
+  </aside>
+</div>
+</main>
+<footer class="foot-site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <img src="img/logo-hart-white.png" alt="Hart" width="324" height="227">
+        <p style="margin-top:1rem">Hart Mechanical &amp; Electrical Contractors, Inc.<br>Diversity At Its Best.</p>
+      </div>
+      <div>
+        <span class="mono">Shop</span>
+        <address>1200 North Ridge Road<br>Perkasie, PA 18944<br>East Rockhill Township</address>
+      </div>
+      <div>
+        <span class="mono">Reach the office</span>
+        <a href="tel:+12152571666">(215) 257-1666</a><br>
+        <a href="mailto:hart@hartmechanical.com">hart@hartmechanical.com</a><br>
+        Monday to Friday, 8 AM to 5 PM
+      </div>
+      <div>
+        <span class="mono">Pages</span>
+        <a href="capabilities.html">Capabilities</a><br>
+        <a href="projects.html">Projects</a><br>
+        <a href="about.html">About</a><br>
+        <a href="quote.html">Request a quote</a>
+      </div>
+    </div>
+    <p class="legal">Sample redesign built from Hart Mechanical&rsquo;s own previous website (photos and wording). Not affiliated with Hart Mechanical &amp; Electrical Contractors, Inc. and not their live website. Not indexed by search engines.</p>
+  </div>
+</footer>
+</body>
+</html>
